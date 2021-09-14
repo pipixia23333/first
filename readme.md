@@ -30,3 +30,9 @@ git diff //获取修改内容
 
 git log //获取历史记录
 
+q退出
+
+
+
+git log --pretty=oneline//按行输出
+
