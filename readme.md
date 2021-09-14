@@ -18,3 +18,15 @@ git commit -m " "  // 提交文件-m 后面写说明
 
 git add #文件名
 
+
+
+一句话
+
+
+
+git status //获取工作区状态
+
+git diff //获取修改内容
+
+git log //获取历史记录
+
