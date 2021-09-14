@@ -154,3 +154,10 @@ ssh协议最快
 
 ![git-br-ff-merge](E:\OneDrive - mail.sdu.edu.cn\md\image\0.png)
 
+首先，我们创建`dev`分支，然后切换到`dev`分支：
+
+```
+$ git checkout -b dev
+Switched to a new branch 'dev'
+```
+
