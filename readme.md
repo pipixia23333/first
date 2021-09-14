@@ -36,3 +36,13 @@ q退出
 
 git log --pretty=oneline//按行输出
 
+
+
+git reset --hard HEAD^  //^个数表示后退版本个数 
+
+100个版本  HEAD~100
+
+git reset --hard 版本号 //退回指定版本（包括曾经退掉的版本
+
+git reflog 用来记录每一次的命令命令日志
+
