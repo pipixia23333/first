@@ -10,4 +10,3 @@ second
 
 create a new branch
 
-on branch master
