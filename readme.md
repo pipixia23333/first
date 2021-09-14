@@ -11,3 +11,10 @@ git init //把这个目录变成git可以管理的仓库
 git可以跟踪文本文件的改动
 
 word文件是二进制格式
+
+
+
+git commit -m " "  // 提交文件-m 后面写说明
+
+git add #文件名
+
