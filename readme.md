@@ -96,7 +96,7 @@ commit 提交的是暂存区里的修改内容而非工作区的
 
 ## 远程库
 
-#### 推送远程库
+### 推送远程库
 
 SSH key : GitHub 用于识别推送是自己提交的
 
@@ -112,7 +112,7 @@ $ git push -u origin master
 
 推送到远程库上
 
-#### 删除远程库
+### 删除远程库
 
 ```git
 $ git remote -v
@@ -136,7 +136,7 @@ $ git remote rm origin
 
 此后，每次本地提交后，只要有必要，就可以使用命令`git push origin master`推送最新修改；
 
-#### 克隆仓库
+### 克隆仓库
 
 git clone #GitHub的地址
 
@@ -176,4 +176,44 @@ $ git branch
 * dev
   master
 ```
+
+```
+$ git merge dev
+```
+
+合并到当前分支
+
+Fast-forward 直接更改指针指向
+
+```
+$ git branch -d dev
+```
+
+创建并切换到新的`dev`分支，可以使用：
+
+```
+$ git switch -c dev
+```
+
+直接切换到已有的`master`分支，可以使用：
+
+```
+$ git switch master
+```
+
+### 总结
+
+Git鼓励大量使用分支：
+
+查看分支：`git branch`
+
+创建分支：`git branch <name>`
+
+切换分支：`git checkout <name>`或者`git switch <name>`
+
+创建+切换分支：`git checkout -b <name>`或者`git switch -c <name>`
+
+合并某分支到当前分支：`git merge <name>`
+
+删除分支：`git branch -d <name>`
 
