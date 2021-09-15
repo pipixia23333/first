@@ -216,11 +216,13 @@ Git鼓励大量使用分支：
 合并某分支到当前分支：`git merge <name>`
 
 删除分支：`git branch -d <name>`
-删除分支：`git branch -d <name>`
 
 ### BUG分支
 
-对于未提交的工作暂时保存并创建分支debug
-
 `stash`功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
 
+`cherry-pick <commit>`命令，能复制一个特定的提交到当前分支
+
+一是用`git stash apply`恢复，但是恢复后，stash内容并不删除，你需要用`git stash drop`来删除；
+
+另一种方式是用`git stash pop`，恢复的同时把stash内容也删
