@@ -1,11 +1,7 @@
-first
+A
 
-second
+B
 
-3333
+C
 
-444
-
-暂存区
-
-create a new branch
+on branch master
