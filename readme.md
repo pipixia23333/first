@@ -217,4 +217,13 @@ Git鼓励大量使用分支：
 
 删除分支：`git branch -d <name>`
 
+<<<<<<< Updated upstream
 good
+=======
+### BUG分支
+
+对于未提交的工作暂时保存并创建分支debug
+
+`stash`功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+
+>>>>>>> Stashed changes
